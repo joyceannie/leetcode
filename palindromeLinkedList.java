@@ -1,4 +1,4 @@
-public class Solution {
+public class palindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
         if (head==null || head.next==null){
             return true;
