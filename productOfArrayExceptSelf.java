@@ -1,4 +1,5 @@
-public int[] productExceptSelf(int[] nums) {
+class  productOfArrayExceptSelf{
+   public int[] productExceptSelf(int[] nums) {
 	int[] forwardScan=new int[nums.length];
 	int[] reverseScan = new int[nums.length];
 	int[] output = new int[nums.length];  
@@ -14,4 +15,5 @@ public int[] productExceptSelf(int[] nums) {
 		output[i]=reverseScan[i]*forwardScan[i];
 	}
 	return output;
-}	  
+   }	  
+}
