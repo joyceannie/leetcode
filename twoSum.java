@@ -1,7 +1,7 @@
 public class twoSum {
     public int[] twoSum(int[] nums, int target) {
-               if(nums.length==2){
-        return nums;
+        if(nums.length==2){
+            return nums;
         }
         Map<Integer,Integer> hmap = new HashMap<Integer,Integer>(); 
         int temp=0;
